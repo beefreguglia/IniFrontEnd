@@ -30,13 +30,13 @@ header {
 
 }
 
-header div {
+.links {
 
     text-align: center;
 
 }
 
-header div a {
+.links a {
 
     color: white;
     font-size: 18px;
@@ -46,7 +46,7 @@ header div a {
 
 }
 
-header div a:hover {
+.links a:hover {
 
     color: var(--color-green);
     transition: color 300ms;
@@ -101,5 +101,11 @@ header div a:hover {
 #wrapper p a{
 
     color: var(--color-green);
+
+}
+
+#links-footer {
+
+    text-decoration: underline;
 
 }
